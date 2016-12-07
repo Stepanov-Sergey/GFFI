@@ -5,7 +5,7 @@ Gallery From a Folder of Images
 
 **This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
 
-The **Gallery** Plugin is for [Grav CMS](http://github.com/getgrav/grav). test
+The **Gallery** Plugin is for [Grav CMS](http://github.com/getgrav/grav).
 
 
 ### Manual Installation

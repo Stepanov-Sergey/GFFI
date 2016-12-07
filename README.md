@@ -21,5 +21,4 @@ and switch Pages->Advansed->Overrides->Process - twig
 
 
 - [ ] maybe in the future by clicking on a thumbnail will open the complete files
-
-
+- [ ] move html code in template file

@@ -1,6 +1,6 @@
 name: Gallery
 version: 0.0.2
-description: Generator gallery of pictures from the road
+description: Generator gallery of pictures from the folder
 icon: plug
 author:
   name: Sergey Stepanov

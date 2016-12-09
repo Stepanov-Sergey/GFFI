@@ -22,10 +22,10 @@ class GalleryTwigExtension extends \Twig_Extension
                     {
                         if(preg_match('/t\.(png)/', $file))
                             {
-                                $str.="<div class=\"pure-u-r\"><img src=\"gallery/$file\"></div>";
+                                $str[]=$file;
                             }
                     }
-        return  "<center><div class=\"pure-g-r\">".$str."</div></center>";
+        return  $str;
     }
 }
 ?>

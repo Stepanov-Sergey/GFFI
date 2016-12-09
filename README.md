@@ -20,7 +20,7 @@ On the page, insert:</br>
 \<center></br>
 &nbsp;\<div class="pure-g-r"></br>
 &nbsp;&nbsp;{% for files in Gallery() %}</br>
-&nbsp;&nbsp;&nbsp;\<div class="pure-u-r">{{ files }}\</div></br>
+&nbsp;&nbsp;&nbsp;\<div class="pure-u-r">\<img src="gallery/{{ files }}">\</div></br>
 &nbsp;&nbsp;{% endfor %}</br>
 &nbsp;\</div></br>
 \<center></br>

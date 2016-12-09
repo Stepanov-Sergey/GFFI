@@ -17,11 +17,13 @@ You should now have all the plugin files under
 and put the files named *t.Png (t - mean thumbnail)
 
 On the page, insert:</br>
-\<div class="pure-g-r"></br>
-	{% for files in Gallery() %}</br>
-		\<div class="pure-u-r">{{ files }}\</div></br>
-	{% endfor %}</br>
-\</div></br>
+\<center>
+&nbsp;\<div class="pure-g-r"></br>
+&nbsp;&nbsp;{% for files in Gallery() %}</br>
+&nbsp;&nbsp;&nbsp;\<div class="pure-u-r">{{ files }}\</div></br>
+&nbsp;&nbsp;{% endfor %}</br>
+&nbsp;\</div></br>
+\<center>
 
 to display the gallery 
 and switch Pages->Advansed->Overrides->Process - twig

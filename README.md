@@ -28,6 +28,8 @@ On the page, insert:</br>
 
 to display the gallery 
 and switch Pages->Advansed->Overrides->Process - twig
+
+## To Do
 - [ ]  replace path <i>/site/grav/gallery</i> on the path of the current page: $dir= $grav['page']-> filePathClean(); does not work
 - [+] move html code to page as twig
 - [ ] maybe in the future by clicking on a thumbnail will open the complete files

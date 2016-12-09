@@ -16,12 +16,12 @@ You should now have all the plugin files under
 Сreate a folder /your/site/grav/gallery
 and put the files named *t.Png (t - mean thumbnail)
 
-On the page, insert:
-\<div class="pure-g-r">
-	{% for files in Gallery() %}
-		\<div class="pure-u-r">{{ files }}\</div>
-	{% endfor %}
-\</div>
+On the page, insert:</br>
+\<div class="pure-g-r"></br>
+	{% for files in Gallery() %}</br>
+		\<div class="pure-u-r">{{ files }}\</div></br>
+	{% endfor %}</br>
+\</div></br>
 
 to display the gallery 
 and switch Pages->Advansed->Overrides->Process - twig

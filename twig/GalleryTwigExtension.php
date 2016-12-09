@@ -14,7 +14,7 @@ class GalleryTwigExtension extends \Twig_Extension
     }
     public function GalleryFunction()
     {
-          $dir='gallery'; //$dir= $grav['page']-> filePathClean();
+          $dir='gallery'; //$dir= $this->grav['page']->filePathClean();
             // $dir = getcwd();
             $f = scandir($dir);
            // $str=implode('<br>',$f);

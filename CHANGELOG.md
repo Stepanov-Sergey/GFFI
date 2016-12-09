@@ -1,5 +1,6 @@
-# v0.0.1
-##  12/07/2016
+# v0.0.3
+##  12/09/2016
 
-1. [](#new)
-    * ChangeLog started...
+1. [](#improved)
+    * Changed template
+

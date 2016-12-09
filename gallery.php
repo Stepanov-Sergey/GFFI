@@ -18,7 +18,7 @@ class GalleryPlugin extends Plugin
      */
     public function onTwigExtensions()
     {
-        require_once(__DIR__ . '/twig/GalleryTwigExtension.php');
+        require_once(__DIR__ . '/GalleryTwigExtension.php');
         $this->grav['twig']->twig->addExtension(new GalleryTwigExtension()); 
     }
 

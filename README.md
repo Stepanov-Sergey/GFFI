@@ -27,7 +27,7 @@ On the page, insert:</br>
 	<center>
 
 to display the gallery 
-and switch Pages->Advansed->Overrides->Process - twig
+and switch Pages->Advanced->Overrides->Process - twig
 
 ## To Do
 - [ ]  replace path <i>/site/grav/gallery</i> on the path of the current page: $dir= $grav['page']-> filePathClean(); does not work
